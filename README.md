@@ -1,19 +1,11 @@
-telegram-bot
+<<<<<<< HEAD
+Talibot
 ============
 
-[![https://yago.me/tg-bot](https://img.shields.io/badge/💬_Telegram-Bot_Dev._Group-blue.svg)](https://yago.me/tg-bot) [![https://telegram.me/Yago_Perez](https://img.shields.io/badge/💬_Telegram-Yago__Perez-blue.svg)](https://telegram.me/Yago_Perez) [![https://gitter.im/yagop/telegram-bot](https://img.shields.io/badge/💬_Gitter-Join_Chat-green.svg)](https://gitter.im/yagop/telegram-bot)
-[![Donate button](https://img.shields.io/badge/Red_Cross-donate-yellow.svg)](https://www.icrc.org/ "Donate to Red Cross Society")
+[![https://telegram.me/joinchat/ALJ3izwBCNXSswCHOKMwGw](https://img.shields.io/badge/💬_Telegram-Bot._Group-blue.svg)](https://telegram.me/joinchat/ALJ3izwBCNXSswCHOKMwGw) [![https://telegram.me/Yago_Perez](https://img.shields.io/badge/💬_Telegram-Yago__Perez-blue.svg)](https://telegram.me/Yago_Perez) [![https://telegram.me/Josepdal](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-Josepdal-blue.svg)](https://telegram.me/Josepdal) [![https://gitter.im/yagop/telegram-bot](https://img.shields.io/badge/💬_Gitter-Join_Chat-green.svg)](https://gitter.im/yagop/telegram-bot])
+[![Donate button](https://img.shields.io/badge/Red_Cross-donate-yellow.svg)](https://www.icrc.org/ "Donate to Red Cross Society") [![http://taligram.org](https://img.shields.io/badge/Taligram.org-Visit_us-blue.svg)](https://telegram.me/joinchat/ALJ3izwBCNXSswCHOKMwGw)
 
 A Telegram Bot based on plugins using [tg](https://github.com/vysheng/tg).
-
-Multimedia
-----------
-- When user sends image (png, jpg, jpeg) URL download and send it to origin.
-- When user sends media (gif, mp4, pdf, etc.) URL download and send it to origin.
-- When user sends twitter URL, send text and images to origin. Requires OAuth Key.
-- When user sends YouTube URL, send to origin video image.
-
-![http://i.imgur.com/0FGUvU0.png](http://i.imgur.com/0FGUvU0.png) ![http://i.imgur.com/zW7WWWt.png](http://i.imgur.com/zW7WWWt.png) ![http://i.imgur.com/zW7WWWt.png](http://i.imgur.com/kPK7paz.png)
 
 Bot Commands
 ------------
@@ -27,294 +19,32 @@ Bot Commands
   </thead>
   <tbody>
     <tr>
-      <td>9gag.lua</td>
-      <td>9GAG for telegram</td>
-      <td>!9gag: Send random image from 9gag</td>
-    </tr>
-    <tr>
-      <td>boobs.lua</td>
-      <td>Gets a random boobs or butts pic</td>
-      <td>!boobs: Get a boobs NSFW image. :underage:<br>!butts: Get a butts NSFW image. :underage:<br></td>
-    </tr>
-    <tr>
-      <td>btc.lua</td>
-      <td>Bitcoin global average market value (in EUR or USD)</td>
-      <td>!btc [EUR|USD] [amount]</td>
-    </tr>
-    <tr>
-      <td>bugzilla.lua</td>
-      <td>Lookup bugzilla status update</td>
-      <td>/bot bugzilla [bug number]</td>
-    </tr>
-    <tr>
-      <td>calculator.lua</td>
-      <td>Calculate math expressions with mathjs API</td>
-      <td>!calc [expression]: evaluates the expression and sends the result.</td>
-    </tr>
-    <tr>
       <td>channels.lua</td>
       <td>Plugin to manage channels. Enable or disable channel.</td>
       <td>!channel enable: enable current channel<br>!channel disable: disable current channel<br></td>
-    </tr>
-    <tr>
-      <td>danbooru.lua</td>
-      <td>Gets a random fresh or popular image from Danbooru</td>
-      <td>!danbooru - gets a random fresh image from Danbooru :underage:<br>!danboorud - random daily popular image :underage:<br>!danbooruw - random weekly popular image :underage:<br>!danboorum - random monthly popular image :underage:<br></td>
-    </tr>
-    <tr>
-      <td>dogify.lua</td>
-      <td>Create a doge image with words.</td>
-      <td>!dogify (words/or phrases/separated/by/slashes) - Create a doge image with the words.</td>
-    </tr>
-    <tr>
-      <td>download_media.lua</td>
-      <td>When bot receives a media msg, download the media.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>echo.lua</td>
-      <td>Simplest plugin ever!</td>
-      <td>!echo [whatever]: echoes the msg</td>
-    </tr>
-    <tr>
-      <td>eur.lua</td>
-      <td>Real-time EURUSD market price</td>
-      <td>!eur [USD]</td>
-      </tr>
-    <tr>
-      <td>expand.lua</td>
-      <td>Expand a shorten URL to the original.</td>
-      <td>!expand [url]</td>
-    </tr>
-    <tr>
-      <td>fortunes_uc3m.lua</td>
-      <td>Fortunes from Universidad Carlos III</td>
-      <td>!uc3m</td>
-    </tr>
-    <tr>
-      <td>get.lua</td>
-      <td>Retrieves variables saved with !set</td>
-      <td>!get (value_name): Returns the value_name value.</td>
-    </tr>
-    <tr>
-      <td>giphy.lua</td>
-      <td>GIFs from telegram with Giphy API</td>
-      <td>!gif (term): Search and sends GIF from Giphy. If no param, sends a trending GIF.<br>!giphy (term): Search and sends GIF from Giphy. If no param, sends a trending GIF.<br></td>
-    </tr>
-    <tr>
-      <td>gnuplot.lua</td>
-      <td>Gnuplot plugin</td>
-      <td>!gnuplot [single variable function]: Plot single variable function.</td>
-    </tr>
-    <tr>
-      <td>google.lua</td>
-      <td>Searches Google and send results</td>
-      <td>!google [terms]: Searches Google and send results</td>
-    </tr>
-    <tr>
-      <td>gps.lua</td>
-      <td>generates a map showing the given GPS coordinates</td>
-      <td>!gps latitude,longitude: generates a map showing the given GPS coordinates</td>
-    </tr>
-    <tr>
-      <td>hackernews.lua</td>
-      <td>Show top 5 hacker news (ycombinator.com)</td>
-      <td>!hackernews</td>
-    </tr>
-    <tr>
-      <td>hello.lua</td>
-      <td>Says hello to someone</td>
-      <td>say hello to [name]</td>
-    </tr>
-    <tr>
-      <td>help.lua</td>
-      <td>Help plugin. Get info from other plugins. </td>
-      <td>!help: Show list of plugins.<br>!help all: Show all commands for every plugin.<br>!help [plugin name]: Commands for that plugin.<br></td>
-    </tr>
-    <tr>
-        <td>id.lua</td>
-        <td>Know your id or the id of a chat members.</td>
-        <td>!id: Return your ID and the chat id if you are in one.<br>!id(s) chat: Return the IDs of the chat members.<br></td>
-    </tr>
-    <tr>
-      <td>images.lua</td>
-      <td>When user sends image URL (ends with png, jpg, jpeg) download and send it to origin.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>imdb.lua</td>
-      <td>IMDB plugin for Telegram</td>
-      <td>!imdb [movie]</td>
-    </tr>
-    <tr>
-      <td>img_google.lua</td>
-      <td>Search image with Google API and sends it.</td>
-      <td>!img [term]: Random search an image with Google API.</td>
-    </tr>
-    <tr>
-      <td>invite.lua</td>
-      <td>Invite other user to the chat group</td>
-      <td>!invite name [user_name]<br>!invite id [user_id]<br></td>
-    </tr>
-    <tr>
-      <td>isup.lua</td>
-      <td>Check if a website or server is up.</td>
-      <td>!isup [host]: Performs a HTTP request or Socket (ip:port) connection<br>!isup cron [host]: Every 5mins check if host is up. (Requires privileged user)<br>!isup cron delete [host]: Disable checking that host.<br></td>
-    </tr>
-    <tr>
-      <td>location.lua</td>
-      <td>Gets information about a location, maplink and overview</td>
-      <td>!loc (location): Gets information about a location, maplink and overview</td>
-    </tr>
-    <tr>
-      <td>magic8ball.lua</td>
-      <td>Magic 8Ball</td>
-      <td>!magic8ball</td>
-    </tr>
-    <tr>
-      <td>media.lua</td>
-      <td>When user sends media URL (ends with gif, mp4, pdf, etc.) download and send it to origin.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>meme.lua</td>
-      <td>Generate a meme image with up and bottom texts.</td>
-      <td>
-      !meme search (name): Return the name of the meme that match.<br>!meme list: Return the link where you can see the memes.<br>!meme listall: Return the list of all memes. Only admin can call it.<br>!meme [name] - [text_up] - [text_down]: Generate a meme with the picture that match with that name with the texts provided.<br>!meme [name] "[text_up]" "[text_down]": Generate a meme with the picture that match with that name with the texts provided.<br>
-      </td>
-    </tr>
-    <tr>
-      <td>minecraft.lua</td>
-      <td>Searches Minecraft server and sends info</td>
-      <td>!mine [ip]: Searches Minecraft server on specified IP and sends info. Default port: 25565<br>!mine [ip] [port]: Searches Minecraft server on specified IP and port and sends info.<br></td>
-      </tr>
-    <tr>
-      <td>pili.lua</td>
-      <td>Shorten an URL with pili.la service</td>
-      <td>!pili [url]: Short the url</td>
     </tr>
     <tr>
       <td>plugins.lua</td>
       <td>Plugin to manage other plugins. Enable, disable or reload.</td>
       <td>!plugins: list all plugins.<br>!plugins enable [plugin]: enable plugin.<br>!plugins disable [plugin]: disable plugin.<br>!plugins disable [plugin] chat: disable plugin only this chat.<br>!plugins reload: reloads all plugins.<br></td>
     </tr>
-    <tr>
-      <td>qr.lua</td>
-      <td>Given a text it returns a qr code</td>
-      <td>!qr [text] : returns a black and white qr code <br> !qr "[background color]" "[data color]" [text] : returns a colored qr code (see !help qr to see how specify colors).</td>
-    </tr>
-    <tr>
-      <td>quotes.lua</td>
-      <td>Quote plugin, you can create and retrieves random quotes</td>
-      <td>!addquote [msg]<br>!quote<br></td>
-    </tr>
-    <tr>
-      <td>rae.lua</td>
-      <td>Spanish dictionary</td>
-      <td>!rae [word]: Search that word in Spanish dictionary.</td>
-    </tr>
-    <tr>
-      <td>roll.lua</td>
-      <td>Roll some dice!</td>
-      <td>
-        !roll d
-        <sides>
-        |
-        <count>
-        d
-        <sides>
-      </td>
-    </tr>
-    <tr>
-      <td>rss.lua</td>
-      <td>Manage User/Chat RSS subscriptions.</td>
-      <td>!rss: Get the rss subscriptions.<br>!rss subscribe (url): Subscribe to that url.<br>!rss unsubscribe (id): Unsubscribe of that id.<br>!rss sync: Sync the rss subscriptios now. Only sudo users can use this option.<br></td>
-    </tr>
-    <tr>
-      <td>search_youtube.lua</td>
-      <td>Search video on YouTube and send it.</td>
-      <td>!youtube [term]: Search for a YouTube video and send it.</td>
-    </tr>
-    <tr>
-      <td>set.lua</td>
-      <td>Plugin for saving values. get.lua plugin is necessary to retrieve them.</td>
-      <td>!set [value_name] [data]: Saves the data with the value_name name.</td>
-    </tr>
-    <tr>
-      <td>stats.lua</td>
-      <td>Plugin to update user stats.</td>
-      <td>!stats: Returns a list of Username [telegram_id]: msg_num</td>
-    </tr>
-    <tr>
-      <td>steam.lua</td>
-      <td>Grabs Steam info for Steam links.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>tex.lua</td>
-      <td>Convert LaTeX equation to image</td>
-      <td>!tex [equation]: Convert LaTeX equation to image</td>
-    </tr>
-    <tr>
-      <td>time.lua</td>
-      <td>Displays the local time in an area</td>
-      <td>!time [area]: Displays the local time in that area</td>
-    </tr>
-    <tr>
-      <td>translate.lua</td>
-      <td>Translate some text</td>
-      <td>!translate text. Translate the text to English.<br>!translate target_lang text.<br>!translate source,target text<br></td>
-    </tr>
-    <tr>
-      <td>tweet.lua</td>
-      <td>Random tweet from user</td>
-      <td>!tweet id [id]: Get a random tweet from the user with that ID<br>!tweet id [id] last: Get a random tweet from the user with that ID<br>!tweet name [name]: Get a random tweet from the user with that name<br>!tweet name [name] last: Get a random tweet from the user with that name<br></td>
-    </tr>
-    <tr>
-      <td>twitter.lua</td>
-      <td>When user sends twitter URL, send text and images to origin. Requires OAuth Key.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>twitter_send.lua</td>
-      <td>Sends a tweet</td>
-      <td>!tw [text]: Sends the Tweet with the configured account.</td>
-    </tr>
-    <tr>
-      <td>version.lua</td>
-      <td>Shows bot version</tdd>
-      <td>!version: Shows bot version</td>
-    </tr>
-    <tr>
-      <td>vote.lua</td>
-      <td>Plugin for voting in groups.</td>
-      <td>!voting reset: Reset all the votes.<br>!vote [number]: Cast the vote.<br>!voting stats: Shows the statistics of voting.<br></td>
-    </tr>
-    <tr>
-      <td>weather.lua</td>
-      <td>weather in that city (Madrid is default)</td>
-      <td>!weather (city)</td>
-      </tr>
-    <tr>
-      <td>webshot.lua</td>
-      <td>Take an screenshot of a web.</td>
-      <td>!webshot [url]</td>
-    </tr>
-    <tr>
-      <td>wiki.lua</td>
-      <td>Searches Wikipedia and send results</td>
-      <td>!wiki [terms]: Searches wiki and send results<br>!wiki_set [wiki]: sets the wikimedia site for this chat<br>!wiki_get: gets the current wikimedia site<br></td>
-    </tr>
-    <tr>
-      <td>xkcd.lua</td>
-      <td>Send comic images from xkcd</td>
-      <td>!xkcd (id): Send an xkcd image and title. If not id, send a random one<br></td>
-    </tr>
-    <tr>
-      <td>youtube.lua</td>
-      <td>Sends YouTube info and image.</td>
-      <td></td>
-    </tr>
+<tr>
+<td>spam.lua</td>
+<td>Plugin to manage spam at groups and supergroups. When someone write a Telegram link to another group or channel, automatically, plugin delete that user from the chat, and delete their message.</td>
+<td>You can add patterns to use this plugin like Telegram.me/org links from adf.ly...</td>
+</tr>
+<tr>
+<td>flood.lua</td>
+<td>Plugin to manage flood at groups and supergroups. When someone write multiple messages in a short time, bot delete them from the chat.</td>
+<td>Messages per second</td>
+</tr>
+<tr>
+<td>banhammer.lua</td>
+<td>Plugin to manage users from chats. Kickbyreply implemented and working with chats, not in channels. When some user is unbanned from chat, the bot automatically add him into the group again.</td>
+<td>Reply !ban to ban user
+Reply !kick to kick user
+!ban delete ID to unban user</td>
+</tr>
   </tbody>
 </table>
 
@@ -328,13 +58,13 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # After those dependencies, lets install the bot
 cd $HOME
-git clone https://github.com/yagop/telegram-bot.git
-cd telegram-bot
+git clone https://github.com/Josepdal/Talibot.git
+cd Talibot
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
 
-Enable more [`plugins`](https://github.com/yagop/telegram-bot/tree/master/plugins)
+Enable more [`plugins`](https://github.com/yagop/Talibot/tree/supergroups/plugins)
 -------------
 See the plugins list with `!plugins` command.
 
@@ -358,6 +88,204 @@ $ sudo stop telegram # To stop it
 
 Contact me
 ------------
-You can contact me [via Telegram](https://telegram.me/yago_perez) but if you have an issue please [open](https://github.com/yagop/telegram-bot/issues) one.
+You can contact me [via Telegram](https://telegram.me/Josepdal) but if you have an issue please [open](https://github.com/Josepdal/Talibot/issues) one.
+=======
+## Telegram messenger CLI [![Build Status](https://travis-ci.org/vysheng/tg.png)](https://travis-ci.org/vysheng/tg)
 
-[Join](https://telegram.me/joinchat/ALJ3izwBCNXSswCHOKMwGw) on the TelegramBot Discussion Group.
+Command-line interface for [Telegram](http://telegram.org). Uses readline interface.
+
+### API, Protocol documentation
+
+Documentation for Telegram API is available here: http://core.telegram.org/api
+
+Documentation for MTproto protocol is available here: http://core.telegram.org/mtproto
+
+### Upgrading to version 1.0
+
+First of all, the binary is now in ./bin folder and is named telegram-cli. So be careful, not to use old binary.
+
+Second, config folder is now ${HOME}/.telegram-cli
+
+Third, database is not compatible with older versions, so you'll have to login again.
+
+Fourth, in peer_name '#' are substitued to '@'. (Not applied to appending of '#%d' in case of two peers having same name).
+
+### Installation
+
+Clone GitHub Repository
+
+     git clone --recursive https://github.com/vysheng/tg.git && cd tg
+
+### Python Support
+
+Python support is currently limited to Python 2.7 or Python 3.1+. Other versions may work but are not tested.
+
+#### Linux and BSDs
+
+Install libs: readline, openssl and (if you want to use config) libconfig, liblua, python and libjansson.
+If you do not want to use them pass options --disable-libconfig, --disable-liblua, --disable-python and --disable-json respectively.
+
+On Ubuntu/Debian use: 
+
+     sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make 
+
+On gentoo:
+
+     sudo emerge -av sys-libs/readline dev-libs/libconfig dev-libs/openssl dev-lang/lua dev-libs/libevent dev-libs/jansson dev-lang/python
+
+On Fedora:
+
+     sudo dnf install lua-devel openssl-devel libconfig-devel readline-devel libevent-devel libjansson-devel python-devel
+
+On Archlinux:
+
+     yaourt -S telegram-cli-git
+
+On FreeBSD:
+
+     pkg install libconfig libexecinfo lua52 python
+
+On OpenBSD:
+
+     pkg_add libconfig libexecinfo lua python
+
+On openSUSE:
+
+     sudo zypper in lua-devel libconfig-devel readline-devel libevent-devel libjansson-devel python-devel libopenssl-devel
+
+Then,
+
+     ./configure
+     make
+
+#### Other methods to install on linux
+
+On Gentoo: use ebuild provided.
+
+On Arch: https://aur.archlinux.org/packages/telegram-cli-git
+
+#### Mac OS X
+
+The client depends on [readline library](http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html) and [libconfig](http://www.hyperrealm.com/libconfig/), which are not included in OS X by default. You have to install these libraries manually.
+
+If using [Homebrew](http://brew.sh/):
+
+     brew install libconfig readline lua python libevent jansson
+     export CFLAGS="-I/usr/local/include -I/usr/local/Cellar/readline/6.3.8/include"
+     export LDFLAGS="-L/usr/local/lib -L/usr/local/Cellar/readline/6.3.8/lib"
+     ./configure && make
+
+Thanks to [@jfontan](https://github.com/vysheng/tg/issues/3#issuecomment-28293731) for this solution.
+
+If using [MacPorts](https://www.macports.org):
+     
+     sudo port install libconfig-hr
+     sudo port install readline
+     sudo port install lua51
+     sudo port install python34
+     sudo port install libevent
+     export CFLAGS="-I/usr/local/include -I/opt/local/include -I/opt/local/include/lua-5.1"
+     export LDFLAGS="-L/usr/local/lib -L/opt/local/lib -L/opt/local/lib/lua-5.1"
+     ./configure && make
+
+Install these ports:
+
+* devel/libconfig
+* devel/libexecinfo
+* lang/lua52
+
+Then build:
+
+     env CC=clang CFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib LUA=/usr/local/bin/lua52 LUA_INCLUDE=-I/usr/local/include/lua52 LUA_LIB=-llua-5.2 ./configure
+     make
+
+#### Other UNIX
+
+If you manage to launch it on other UNIX, please let me know.
+
+### Contacts 
+If you would like to ask a question, you can write to my telegram or to the github (or both). To contact me via telegram, you should use import_card method with argument 000653bf:0738ca5d:5521fbac:29246815:a27d0cda
+
+
+### Usage
+
+    bin/telegram-cli -k <public-server-key>
+    
+By default, the public key is stored in tg-server.pub in the same folder or in /etc/telegram-cli/server.pub. If not, specify where to find it:
+
+    bin/telegram-cli -k tg-server.pub
+
+Client support TAB completion and command history.
+
+Peer refers to the name of the contact or dialog and can be accessed by TAB completion.
+For user contacts peer name is Name <underscore> Lastname with all spaces changed to underscores.
+For chats it is it's title with all spaces changed to underscores
+For encrypted chats it is <Exсlamation mark> <underscore> Name <underscore> Lastname with all spaces changed to underscores. 
+
+If two or more peers have same name, <sharp>number is appended to the name. (for example A_B, A_B#1, A_B#2 and so on)
+  
+### Supported commands
+
+#### Messaging
+
+* **msg** \<peer\> Text - sends message to this peer
+* **fwd** \<user\> \<msg-seqno\> - forward message to user. You can see message numbers starting client with -N
+* **chat_with_peer** \<peer\> starts one on one chat session with this peer. /exit or /quit to end this mode.
+* **add_contact** \<phone-number\> \<first-name\> \<last-name\> - tries to add contact to contact-list by phone
+* **rename_contact** \<user\> \<first-name\> \<last-name\> - tries to rename contact. If you have another device it will be a fight
+* **mark_read** \<peer\> - mark read all received messages with peer
+* **delete_msg** \<msg-seqno\> - deletes message (not completly, though)
+* **restore_msg** \<msg-seqno\> - restores delete message. Impossible for secret chats. Only possible short time (one hour, I think) after deletion
+
+#### Multimedia
+
+* **send_photo** \<peer\> \<photo-file-name\> - sends photo to peer
+* **send_video** \<peer\> \<video-file-name\> - sends video to peer
+* **send_text** \<peer\> \<text-file-name> - sends text file as plain messages
+* **load_photo**/load_video/load_video_thumb/load_audio/load_document/load_document_thumb \<msg-seqno\> - loads photo/video/audio/document to download dir
+* **view_photo**/view_video/view_video_thumb/view_audio/view_document/view_document_thumb \<msg-seqno\> - loads photo/video to download dir and starts system default viewer
+* **fwd_media** \<msg-seqno\> send media in your message. Use this to prevent sharing info about author of media (though, it is possible to determine user_id from media itself, it is not possible get access_hash of this user)
+* **set_profile_photo** \<photo-file-name\> - sets userpic. Photo should be square, or server will cut biggest central square part
+
+
+#### Group chat options
+
+* **chat_info** \<chat\> - prints info about chat
+* **chat_add_user** \<chat\> \<user\> - add user to chat
+* **chat_del_user** \<chat\> \<user\> - remove user from chat
+* **rename_chat** \<chat\> \<new-name\>
+* **create_group_chat** \<chat topic\> \<user1\> \<user2\> \<user3\> ... - creates a groupchat with users, use chat_add_user to add more users
+* **chat_set_photo** \<chat\> \<photo-file-name\> - sets group chat photo. Same limits as for profile photos.
+
+#### Search
+
+* **search** \<peer\> pattern - searches pattern in messages with peer
+* **global_search** pattern - searches pattern in all messages
+
+#### Secret chat
+
+* **create_secret_chat** \<user\> - creates secret chat with this user
+* **visualize_key** \<secret_chat\> - prints visualization of encryption key. You should compare it to your partner's one
+* **set_ttl** \<secret_chat\> \<ttl\> - sets ttl to secret chat. Though client does ignore it, client on other end can make use of it
+* **accept_secret_chat** \<secret_chat\> - manually accept secret chat (only useful when starting with -E key)
+
+#### Stats and various info
+
+* **user_info** \<user\> - prints info about user
+* **history** \<peer\> [limit] - prints history (and marks it as read). Default limit = 40
+* **dialog_list** - prints info about your dialogs
+* **contact_list** - prints info about users in your contact list
+* **suggested_contacts** - print info about contacts, you have max common friends
+* **stats** - just for debugging
+* **show_license** - prints contents of GPLv2
+* **help** - prints this help
+* **get_self** - get our user info
+
+#### Card
+* **export_card** - print your 'card' that anyone can later use to import your contact
+* **import_card** \<card\> - gets user by card. You can write messages to him after that.
+
+#### Other
+* **quit** - quit
+* **safe_quit** - wait for all queries to end then quit
+>>>>>>> 160231bdd7887316b544412e8b97bcdd86ac25a4
