@@ -88,7 +88,3 @@ $ sudo stop telegram # To stop it
 Contact me
 ------------
 You can contact me [via Telegram](https://telegram.me/Josepdal) but if you have an issue please [open](https://github.com/Josepdal/lang-bot/issues) one.
-=======
-## Telegram messenger CLI [![Build Status](https://travis-ci.org/vysheng/tg.png)](https://travis-ci.org/vysheng/tg)
-
-Command-line interface for [Telegram](http://telegram.org). Uses readline interface.
